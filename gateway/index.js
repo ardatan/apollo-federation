@@ -25,7 +25,9 @@ async function loggingMiddleware(resolve, root, args, context, info) {
   const { schema, executor } = await gateway.load();
 
   const server = new ApolloServer({
-    schema: applyMiddleware(schema, loggingMiddleware),
+    schema: applyMiddleware(schema, {
+      Query: loggingMiddleware,
+    }),
     executor,
   });
 
