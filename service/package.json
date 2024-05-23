@@ -1,0 +1,13 @@
+{
+  "name": "apollo-server-subgraph",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@apollo/subgraph": "^2.7.8",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1"
+  }
+}
