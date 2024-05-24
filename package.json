@@ -1,4 +1,5 @@
 {
+  "private": true,
   "scripts": {
     "start": "concurrently \"npm run start:service\" \"npm run start:gateway\"",
     "start:gateway": "cd gateway && npm start",
@@ -6,5 +7,9 @@
   },
   "dependencies": {
     "concurrently": "^8.2.2"
-  }
+  },
+  "workspaces": [
+    "gateway",
+    "service"
+  ]
 }

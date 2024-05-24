@@ -1,10 +1,12 @@
 {
   "name": "federation-gateway",
+  "version": "0.0.0",
   "dependencies": {
     "@apollo/gateway": "^2.7.8",
     "apollo-server": "^3.13.0",
     "graphql": "^16.8.1",
-    "graphql-middleware": "^6.1.35"
+    "graphql-middleware": "^6.1.35",
+    "@graphql-tools/federation": "^1.1.35"
   },
   "main": "index.js",
   "scripts": {
