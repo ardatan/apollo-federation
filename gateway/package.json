@@ -1,5 +1,6 @@
 {
   "name": "federation-gateway",
+  "version": "1.0.0",
   "dependencies": {
     "@apollo/gateway": "^2.7.8",
     "@graphql-tools/wrap": "^10.0.5",
